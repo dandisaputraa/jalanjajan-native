@@ -1,0 +1,119 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,400&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+    
+}
+.navbar-brand{
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+}
+.jumbotron h3{
+    padding-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.jumbotron img{
+    padding-top: 20%;
+    width: 90%;
+}
+.jumbotron p{
+    margin-left: 50px;
+    text-align: center;
+    padding: 5%;
+}
+.btn{
+    font-size: 15px;
+    color: #F0A500;
+    border-radius: 10px;
+    background-color: #fff;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    color: #F0A500;
+    margin-top: 10%;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+    color: #F0A500;
+}
+.about p{
+    margin-left: 50px;
+    text-align: center;
+    padding: 5%;
+}
+.about img{
+    padding-top: 20%;
+    width: 90%;
+}
+.icon{
+    color: #F8D210;
+}
+
+
+
+/* Versi Dekstop */
+@media (min-width: 992px){
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #F0A500;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 4px;
+        margin-bottom: -7px;
+    }
+    h3{
+        font-family: 'Poppins', sans-serif;
+        color: #F0A500;
+        
+    }
+    .btn{
+        font-size: 15px;
+        color: #F0A500;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .jumbotron h3{
+        padding-top: 20%;
+    }
+    .jumbotron p{
+        text-align: center;
+    }
+    .jumbotron img{
+        padding-top: 15%;
+        width: 90%;
+    }
+    .about h3{
+        padding-top: 15%;
+        text-align: center;
+    }
+    .about img{
+        padding-top: 15%;
+        margin-left: 20%;
+        width: 70%;
+    }
+    .about p{
+        text-align: center;
+    }
+    .card-img{
+        margin-top: 4%;
+    }
+    .card{
+        margin: 20px;
+    }
+    .list-group{
+        margin-top: 37%;
+    }
+    
+
+    
+    
+
+    
+}

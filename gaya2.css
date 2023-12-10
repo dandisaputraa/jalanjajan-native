@@ -1,0 +1,55 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,400&display=swap');
+
+/* page 1 */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+    
+}
+
+.navbar-brand{
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+}
+
+.data{
+   margin-top: 90px;
+   margin-left: 40px;
+   color: #F8D210;
+
+}
+
+.table{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 95%;
+}
+
+.tambah{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #F8D210;
+}
+
+.search{
+    margin-left: 40px;
+    border-radius: 5px;
+    width: 20%;
+    color: #F8D210;
+}
+
+.button{
+    background-color: #F8D210;
+    color: white;
+    border-radius: 5px;
+}
+
+table th{
+    text-align: center;
+}
+
+table td{
+    text-align: center;
+}
